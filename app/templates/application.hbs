@@ -1,7 +1,11 @@
-{{page-title "EmberTicTacToe"}}
+{{page-title "TicTacToe"}}
 
-{{! The following component displays Ember's default welcome message. }}
-<WelcomePage />
-{{! Feel free to remove this! }}
+<GameHeader />
 
-{{outlet}}
+{{! main layout, router wrapper }}
+<div
+  class="h-[calc(100vh_-_160px)] w-full flex flex-col justify-center items-center"
+>
+  {{outlet}}
+</div>
+{{! main layout, router wrapper }}
