@@ -28,3 +28,5 @@ I would have liked to create more tests for all components, all route transition
 
 I wanted to use material design, but since the most popular material design library I found for ember.js seemed outdated, I chose to use tailwind.
 The game is fully mobile-compatible.
+
+You may get a "Not Found" error on the Netlify site; the reason is there is no proxy configuration for there. I changed the router mode to "hash" from "history" but the link I shared with email was for history mode. 
