@@ -5,7 +5,7 @@ module.exports = function (environment) {
     modulePrefix: 'ember-tic-tac-toe',
     environment,
     rootURL: '/',
-    locationType: 'history',
+    locationType: 'hash',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
       FEATURES: {
